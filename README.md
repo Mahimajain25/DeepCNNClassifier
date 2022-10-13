@@ -1,1 +1,1 @@
-Deep Learnng Project DVC Template
+Deep Learning Project DVC Template
