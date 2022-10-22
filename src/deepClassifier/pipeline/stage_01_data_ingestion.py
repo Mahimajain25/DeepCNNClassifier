@@ -5,7 +5,7 @@ from deepClassifier.constants import *
 
 
 def main():
-    config = ConfigurationManager(config_file_path=CONFIG_FILE_PATH,params_file_path=PARAMS_FILE_PATH)
+    config = ConfigurationManager(config_filepath=CONFIG_FILE_PATH,params_filepath=PARAMS_FILE_PATH)
     data_ingestion_config = config.get_data_ingestion_config()
     data_ingestion = DataIngestion(config= data_ingestion_config)
     data_ingestion.download_file()
