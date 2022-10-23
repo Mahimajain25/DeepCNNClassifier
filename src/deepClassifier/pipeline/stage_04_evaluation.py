@@ -1,5 +1,5 @@
 from deepClassifier.config import ConfigurationManager
-from deepClassifier.components import Evaluation
+from deepClassifier.components.evaluation import Evaluation
 from deepClassifier import logger
 
 STAGE_NAME = "Evaluation stage"
